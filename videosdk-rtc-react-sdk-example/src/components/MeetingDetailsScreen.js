@@ -55,7 +55,7 @@ useEffect(()=>{
  
 if(meetingMi!=="" && meetingMi!==null && meetingMi!==undefined){
   localStorage.setItem("mi",null)
-  onClickJoin(meetingMi);
+  //onClickJoin(meetingMi);
   console.log('Meeting code sent:', notificationBody);
 }
 else{
